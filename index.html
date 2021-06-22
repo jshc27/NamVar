@@ -11,7 +11,7 @@
     <div class="container">
         <h1>Name variations</h1>
         <label for="name">
-            <input type="text" id="name" placeholder="Escribe tu nombre">
+            <input type="text" id="your-name" autocomplete="off" placeholder="Escribe tu nombre">
         </label>
         <table>
             <tr>
@@ -20,20 +20,20 @@
             </tr>
             <tr>
                 <td>Number of characters</td>
-                <td></td>
+                <td id="answer1"></td>
             </tr>
             <tr>
                 <td>Lower case</td>
-                <td id="answer"></td>
+                <td id="answer2"></td>
             </tr>
             <tr>
                 <td>Upper case</td>
-                <td id="answer"></td>
+                <td id="answer3"></td>
             </tr>
         </table>
-        <p>Cuando escribes tu nombre vas a visualizar las diferentes variaciones en la cantidad de caracteres,
-        texto en minuscula y mayuscula.
+        <p>When you type your name you will see different variations in the number of characters, lowercase and uppercase text.
         </p>
     </div>
 </body>
+<script type="module" src="./index.js"></script>
 </html>
