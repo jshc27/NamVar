@@ -6,8 +6,8 @@ The objective of this project is to work with Name Variations with the purpose o
 1. Clone this project
 2. Go to the project folder ( cd NamVar)
 3. When you enter the folder, click on the html file (it shows you by default the browser to open the project).
-4. If you want to open through the terminal while in the NamVar folder install Live server: npm install -g live-server
-5. When it is installed, enter the command live-server in your terminal and it should open the project visually. 
+4. If you want to open through the terminal while in the NamVar folder install Live server: <code>npm install -g live-server</code>
+5. When it is installed, enter the command <code>live-server</code> in your terminal and it should open the project visually. 
 
 ## Demo
 
